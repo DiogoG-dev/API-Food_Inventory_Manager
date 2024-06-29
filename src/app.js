@@ -7,7 +7,7 @@ const port = process.env.port || 3000;
 
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://<name>:<password>@clustertest.zlpkjkr.mongodb.net', {
+mongoose.connect('mongodb+srv://<username>:<password>@clustertest.zlpkjkr.mongodb.net', {
     retryWrites: true,
     w: 'majority',
     appName: 'ClusterTest'
