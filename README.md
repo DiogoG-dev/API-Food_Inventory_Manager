@@ -51,12 +51,14 @@ DELETE /foods/{_id}
     "price": 4.5
 }
 ```
+*Obs: O ID é gerado automaticamente pelo MongoDB, portanto não é necessário passa-lo pelo JSON.*
+<br><br>
 **Estrutura dos Dados**: Para atualizar um alimento do banco é necessário passar somente o dado que será atualizado pelo JSON.
 ```JSON
 {
     "price": 5.30
 }
-```
+``` 
 ### Instalação:
 
 1. Clone este repositório:
