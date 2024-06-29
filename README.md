@@ -74,6 +74,6 @@ DELETE /foods/{_id}
       mongoose.connect('mongodb+srv://<username>:<password>@<clusterName>.uyyor32.mongodb.net', {
           retryWrites: true,
           w: 'majority',
-          appName: 'AulaWeb'
+          appName: 'ClusterTest'
       });
     ```
