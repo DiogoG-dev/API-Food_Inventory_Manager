@@ -29,7 +29,7 @@ POST /foods
 ```http
 GET /foods
 ```
-**Read**: Para regastar um alimento pelo ID.
+**Read**: Para resgatar um alimento pelo ID.
 ```http
 GET /foods/{_id}
 ```
