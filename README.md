@@ -71,9 +71,9 @@ DELETE /foods/{_id}
    ```
 3. Configure a conexão com o MongoDB, com seu usuário e senha, no arquivo `app.js`:
     ```js
-      mongoose.connect('mongodb+srv://<username>:<password>@<clusterName>.uyyor32.mongodb.net', {
-          retryWrites: true,
-          w: 'majority',
-          appName: 'ClusterTest'
+      mongoose.connect('mongodb+srv://<username>:<password>@clustertest.zlpkjkr.mongodb.net', {
+            retryWrites: true,
+            w: 'majority',
+            appName: 'ClusterTest'
       });
     ```
