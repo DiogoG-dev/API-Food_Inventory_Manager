@@ -1,5 +1,5 @@
 # API-Food_Inventory_Manager
-Este repositório contém o projeto desenvolvido por meio dos conteúdos da aula de Programação para Web do curso de ADS, ministrada pelo professor https://github.com/vilelaricardo, da UFCA. Tendo como objetivo principal ensinar os conceitos de persistência de dados utilizando MongoDB e Mongoose, integrados com o framework Express.
+Este repositório contém o projeto desenvolvido por mim através dos conteúdos da aula de Programação para Web do curso de ADS, ministrada pelo professor https://github.com/vilelaricardo, da UFCA. Tendo como objetivo principal ensinar os conceitos de persistência de dados utilizando MongoDB e Mongoose, integrados com o framework Express.
 
 ## Estrutura do Projeto
 O projeto está organizado em camadas para facilitar a manutenção e a escalabilidade:
@@ -19,7 +19,7 @@ O projeto está organizado em camadas para facilitar a manutenção e a escalabi
 
 ## Funcionalidades da API
 
-A API é responsável por implementar as funções de CRUD ao estoque de alimentos, armazenado em banco de dados não relacional, através de alguns Endpoints.
+A API é responsável por implementar as funções de CRUD ao estoque de alimentos, armazenado em um banco de dados não relacional, através de alguns Endpoints.
 <br><br>
 **Create**: Para cadastrar um novo alimento.
 ```http
